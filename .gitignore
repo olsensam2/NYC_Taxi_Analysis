@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Python
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# Data: ignore everything in data/raw except the placeholder
+data/raw/*
+!data/raw/.gitkeep
+*.duckdb
+EOF 
+
+git status
